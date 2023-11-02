@@ -45,7 +45,7 @@
   <project path="manifest" name="manifest" remote="superior" />
 
   <!-- Bootable repos -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="Extended" revision="QPR3" />
 
   <!-- CodeAurora additions -->
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" remote="superior" />
@@ -180,7 +180,7 @@
   <project path="system/media" name="android_system_media" remote="Extended" revision="QPR3" />
   <project path="system/security" name="android_system_security" remote="superior" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="superior" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="Extended" revision="QPR3" />
   <project path="system/vold" name="android_system_vold" remote="superior" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="superior" />
 </manifest>
